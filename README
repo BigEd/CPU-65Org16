@@ -1,0 +1,17 @@
+This project is a placeholder because the 65Org16 is a fork of
+verilog-6502 by Arlet Ottens
+
+Please go there and have a look!
+
+https://github.com/BigEd/verilog-6502
+
+The 65Org16 is a CPU core with:
+  - 32-bit address space
+    - by using 16-bit bytes
+  - with no specific support for 8-bit bytes
+  - with BCD mode as unspecified behaviour
+  - and otherwise all opcodes and addressing modes like NMOS 6502
+
+This core has run at 50MHz on FPGA but is still early stage.
+
+The license is LGPL
